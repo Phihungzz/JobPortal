@@ -136,28 +136,16 @@ SQL Server Database
 Clone project
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone ttps://github.com/Phihungzz/JobPortal.git
 ```
 
 Di chuyển vào thư mục project
 
 ```bash
-cd your-repository
+cd JobPortal
 ```
 
-Khôi phục package
-
-```bash
-dotnet restore
-```
-
-Cập nhật chuỗi kết nối SQL Server trong:
-
-```
-appsettings.json
-```
-
-Thêm API Key của Gemini:
+Thêm API Key của Gemini vào:
 
 ```json
 "Gemini": {
@@ -173,10 +161,4 @@ dotnet run
 
 ---
 
-Sinh viên thực hiện: *Nguyễn Lê Phi Hùng*.
-
----
-
-## Giấy phép
-
-Dự án được phát triển phục vụ mục đích học tập và nghiên cứu.
+Author: *Nguyễn Lê Phi Hùng*.
