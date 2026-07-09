@@ -1,6 +1,6 @@
 # Job Portal
 
-## Xây dựng cổng thông tin việc làm trực tuyến tích hợp AI
+## Xây dựng cổng thông tin việc làm trực tuyến tích hợp AI lọc CV
 
 ## Giới thiệu
 
