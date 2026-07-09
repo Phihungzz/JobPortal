@@ -1,0 +1,8 @@
+﻿@* ApplyResult.cshtml *@
+<div>
+    <h4>Kết quả ứng tuyển</h4>
+    <p>Điểm phù hợp: @ViewBag.MatchScore%</p>
+    <p>Kỹ năng: @string.Join(", ", ViewBag.Skills ?? new List<string>())</p>
+    <p>Số năm kinh nghiệm: @ViewBag.ExperienceYears</p>
+    <a href="/apply/@ViewBag.UserId">Quay lại danh sách ứng tuyển</a>
+</div>
